@@ -1,57 +1,40 @@
-# End-to-End-Wine-Quality-Data-Pipeline-with-Databricks
-End-to-end wine quality analysis using Python, PySpark, and Databricks, including EDA, data cleaning, visualization, and business insights.
-# 🍷 Wine Quality Analysis with Databricks
+# Wine Quality Analysis with Databricks
 
-This project focuses on analyzing wine quality data using Python and Apache Spark in Databricks.
+Exploratory analysis of the wine quality dataset in **Databricks** using **Python** and **PySpark**, to understand how physicochemical properties relate to a wine's quality score.
 
-The main objective is to explore the relationship between physicochemical properties of wine and its quality score, applying data analysis techniques commonly used in real-world data projects.
+**Stack:** Databricks · PySpark · Python · pandas · Matplotlib / Seaborn
 
 ---
 
-## 🔗 Notebook (Databricks)
+## Objective
 
-👉 [View Notebook in Databricks](https://dbc-05963ad7-c763.cloud.databricks.com/editor/notebooks/1909756591027036?o=7474655078902957)
+Explore the relationship between the physicochemical properties of wine (acidity, alcohol, sulphates, etc.) and its quality score, using the workflow of a real analytics project: ingestion, cleaning, statistical analysis and visualization.
 
----
+## What was done
 
-## 🔍 What was done in this project:
-- Data ingestion from Databricks sample datasets
-- Exploratory Data Analysis (EDA)
-- Data cleaning and transformation
-- Statistical analysis of key variables
-- Data visualization to identify patterns and insights
-- Creation of a clean dataset for further analysis
+- Loaded the wine quality data from the Databricks sample datasets.
+- Exploratory Data Analysis (EDA): distributions, summary statistics and data types.
+- Data cleaning and transformation.
+- Statistical analysis of the key variables.
+- Visualizations to identify patterns.
+- Produced a clean dataset for further analysis.
 
----
+## Key insights
 
-## 🛠️ Technologies used:
-- Python
-- PySpark
-- Databricks
-- Pandas (for additional analysis)
-- Matplotlib / Seaborn (visualization)
+- Alcohol level shows a clear relationship with quality score.
+- Acidity has a visible impact on quality.
+- Distribution patterns differ across wine samples.
 
----
+## Notebook
 
-## 📊 Key Insights:
-- Identified relationships between alcohol level and wine quality
-- Observed how acidity impacts quality scores
-- Detected distribution patterns across different wine samples
+The analysis was built in a Databricks notebook: [View notebook](https://dbc-05963ad7-c763.cloud.databricks.com/editor/notebooks/1909756591027036?o=7474655078902957) (access may require workspace permissions).
 
----
+## Next steps
 
-## 🎯 Purpose:
-This project is part of my transition into Data Analytics and Data Engineering, showcasing my ability to work with real datasets, perform analysis, and communicate insights effectively.
+- Train a model to predict wine quality.
+- Publish the results in a Power BI dashboard.
+- Automate the pipeline with Databricks Jobs.
 
 ---
 
-## 🚀 Future Improvements:
-- Build a machine learning model to predict wine quality
-- Integrate results into a Power BI dashboard
-- Automate data pipeline using Databricks workflows
-
----
-
-👨‍💻 Author: Stanly Fernández  
-📍 Dominican Republic  
-🔗 [LinkedIn](http://linkedin.com/in/stanly-fernandez)
+**Stanly Fernández** · [LinkedIn](https://www.linkedin.com/in/stanly-fernandez/) · [Portfolio](https://stanly06.github.io/) · [GitHub](https://github.com/Stanly06)
